@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="berbar-pole" patternUnits="userSpaceOnUse"
+             x="0" y="0" width="100" height="100" patternTransform="rotate(45) scale(0.3)">
+      <animateTransform additive="sum" attributeName="patternTransform"
+                        type="translate" begin="0s" dur="1s"
+                        fill="freeze"
+                        from="0, 0" to="100, 0" repeatCount="indefinite"/>
+      <rect fill="white" x="0" y="0" height="100" width="100"/>
+      <rect fill="red" x="0" y="0" height="100" width="25"/>
+      <rect fill="blue" x="50" y="0" height="100" width="25"/>
+    </pattern>
+  </defs>
+
+  <rect width="100%" height="100%" style="fill: url(#berbar-pole)"/>
+</svg>
