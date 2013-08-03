@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%">
   <defs id="gradient-defs">
     <linearGradient spreadMethod="repeat" gradientUnits="userSpaceOnUse" id="grad">
       <stop stop-color="olivedrab" offset="0%"></stop>

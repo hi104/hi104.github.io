@@ -40,7 +40,7 @@
 <g:plusone size="medium"></g:plusone>
 </p>
 <div id="post">
-<h2 id='id33'>ボーダー柄の背景を作る</h2>
+<h2 id='id129'>ボーダー柄の背景を作る</h2>
 
 <p>背景用のSVGを作成する。</p>
 
@@ -52,7 +52,8 @@
   <rect fill='skyblue' height='40' width='20' x='0' y='0' />
 </svg>
 <p>pattern要素の中にいれて、rect要素のfillに設定し、widthとheightを100%にする。</p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span><span class='nt'>&gt;</span>
+<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span>
+     <span class='na'>xmlns:xlink=</span><span class='s'>&quot;http://www.w3.org/1999/xlink&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100%&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100%&quot;</span><span class='nt'>&gt;</span>
   <span class='nt'>&lt;defs&gt;</span>
     <span class='nt'>&lt;pattern</span> <span class='na'>id=</span><span class='s'>&quot;border&quot;</span> <span class='na'>patternUnits=</span><span class='s'>&quot;userSpaceOnUse&quot;</span>
              <span class='na'>width=</span><span class='s'>&quot;40&quot;</span> <span class='na'>height=</span><span class='s'>&quot;40&quot;</span><span class='nt'>&gt;</span>
@@ -71,10 +72,11 @@
 <span class='nt'>&lt;/div&gt;</span>
 </code></pre></div><div style='background:url(&apos;/images/post-2013-07-27/border.svg&apos;);height:100px;'>
 </div>
-<h3 id='id34'>斜めにする</h3>
+<h3 id='id130'>斜めにする</h3>
 
 <p>pattern要素をpatternTransformで回転させる。</p>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span><span class='nt'>&gt;</span>
+<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span>
+     <span class='na'>xmlns:xlink=</span><span class='s'>&quot;http://www.w3.org/1999/xlink&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100%&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100%&quot;</span><span class='nt'>&gt;</span>
   <span class='nt'>&lt;defs&gt;</span>
     <span class='nt'>&lt;pattern</span> <span class='na'>id=</span><span class='s'>&quot;border&quot;</span> <span class='na'>patternUnits=</span><span class='s'>&quot;userSpaceOnUse&quot;</span>
              <span class='na'>width=</span><span class='s'>&quot;40&quot;</span> <span class='na'>height=</span><span class='s'>&quot;40&quot;</span> <span class='na'>patternTransform=</span><span class='s'>&quot;rotate(45)&quot;</span><span class='nt'>&gt;</span>
@@ -89,8 +91,9 @@
 <p><a href='/images/post-2013-07-27/border_r45.svg'>border_r45.svg</a> <div style='background:url(&apos;/images/post-2013-07-27/border_r45.svg&apos;);height:100px;'>
 </div></p>
 
-<h3 id='id35'>アニメーション付き</h3>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span><span class='nt'>&gt;</span>
+<h3 id='id131'>アニメーション付き</h3>
+<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span>
+     <span class='na'>xmlns:xlink=</span><span class='s'>&quot;http://www.w3.org/1999/xlink&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100%&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100%&quot;</span><span class='nt'>&gt;</span>
   <span class='nt'>&lt;defs&gt;</span>
     <span class='nt'>&lt;pattern</span> <span class='na'>id=</span><span class='s'>&quot;berbar-pole&quot;</span> <span class='na'>patternUnits=</span><span class='s'>&quot;userSpaceOnUse&quot;</span>
              <span class='na'>x=</span><span class='s'>&quot;0&quot;</span> <span class='na'>y=</span><span class='s'>&quot;0&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100&quot;</span> <span class='na'>patternTransform=</span><span class='s'>&quot;rotate(45) scale(0.3)&quot;</span><span class='nt'>&gt;</span>
@@ -110,8 +113,9 @@
 <p><a href='/images/post-2013-07-27/berbar_pole.svg'>berbar_pole.svg</a> <div style='background:url(&apos;/images/post-2013-07-27/berbar_pole.svg&apos;);height:100px;'>
 </div></p>
 
-<h2 id='id36'>チェック柄</h2>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span><span class='nt'>&gt;</span>
+<h2 id='id132'>チェック柄</h2>
+<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span>
+     <span class='na'>xmlns:xlink=</span><span class='s'>&quot;http://www.w3.org/1999/xlink&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100%&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100%&quot;</span><span class='nt'>&gt;</span>
   <span class='nt'>&lt;defs&gt;</span>
     <span class='nt'>&lt;pattern</span> <span class='na'>id=</span><span class='s'>&quot;check&quot;</span>
              <span class='na'>patternUnits=</span><span class='s'>&quot;userSpaceOnUse&quot;</span>
@@ -131,8 +135,9 @@
 <p><a href='/images/post-2013-07-27/check.svg'>check.svg</a> <div style='background:url(&apos;/images/post-2013-07-27/check.svg&apos;);height:100px;'>
 </div></p>
 
-<h2 id='id37'>水玉柄</h2>
-<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span><span class='nt'>&gt;</span>
+<h2 id='id133'>水玉柄</h2>
+<div class='highlight'><pre><code class='html'><span class='nt'>&lt;svg</span> <span class='na'>xmlns=</span><span class='s'>&quot;http://www.w3.org/2000/svg&quot;</span>
+     <span class='na'>xmlns:xlink=</span><span class='s'>&quot;http://www.w3.org/1999/xlink&quot;</span> <span class='na'>width=</span><span class='s'>&quot;100%&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100%&quot;</span><span class='nt'>&gt;</span>
   <span class='nt'>&lt;defs&gt;</span>
     <span class='nt'>&lt;pattern</span> <span class='na'>id=</span><span class='s'>&quot;mizutama&quot;</span> <span class='na'>patternUnits=</span><span class='s'>&quot;userSpaceOnUse&quot;</span>
              <span class='na'>width=</span><span class='s'>&quot;100&quot;</span> <span class='na'>height=</span><span class='s'>&quot;100&quot;</span> <span class='na'>patternTransform=</span><span class='s'>&quot;rotate(45) scale(0.4)&quot;</span><span class='nt'>&gt;</span>
@@ -146,7 +151,7 @@
 <p><a href='/images/post-2013-07-27/mizutama.svg'>mizutama.svg</a> <div style='background:url(&apos;/images/post-2013-07-27/mizutama.svg&apos;);height:100px;'>
 </div></p>
 
-<h2 id='id38'>作ってみたもの</h2>
+<h2 id='id134'>作ってみたもの</h2>
 
 <p>グラデーションとチェック柄パタ−ンのマスク</p>
 
@@ -161,7 +166,7 @@
 <p><a href='/images/post-2013-07-27/back3.svg'>back3.svg</a> <div style='border:1px solid #ccc;background:url(&apos;/images/post-2013-07-27/back3.svg&apos;);height:100px;'>
 </div></p>
 
-<h2 id='id39'>リンク</h2>
+<h2 id='id135'>リンク</h2>
 
 <ul>
 <li><a href='http://www.h2.dion.ne.jp/~defghi/svgMemo/svgMemo_09.htm'>グラデーションとパタ−ン | svg要素の基本的な使い方まとめ</a></li>
